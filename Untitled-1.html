@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Carta para o meu amor</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Feliz 3 meses</strong>
+                        <style>
+                            strong {
+                                font-size: 12pt;
+                                font-family: 'Times New Roman', Times, serif;
+                                color: rgb(179, 123, 170);
+                            }
+                        </style>
+                        <p>
+                           Foram os melhores 3 meses da minha que eu ja vivi meu amor!
+                        </p>
+                        <style>
+                            p {
+                                font-size: 8pt;
+                                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                color: rgb(0, 0, 0);
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
